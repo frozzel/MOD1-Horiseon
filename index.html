@@ -9,7 +9,7 @@
 
 <body>
     <!--Changed div to header tag and added same class for css-->
-    <header class="header">
+    <header>
     
         <h1>Hori<span class="seo">seo</span>n</h1>
         <!--changed div to nav and updated css class-->
@@ -29,14 +29,14 @@
     </header>
     <!--Add main Semantic-->
    
-    <!--added figure semantics but man need to change to imgscr so image can have alt txt attribute-->
+    <!--added figure semantics but man need to change to imgscr so image can have alt txt attribute... changed class to meet css semantics-->
     <figure>
-        <img class="hero" src="./assets/images/digital-marketing-meeting.jpg" alt="Marketing Team Solving Clients Needs"/>
+        <img class="bannerimage" src="./assets/images/digital-marketing-meeting.jpg" alt="Marketing Team Solving Clients Needs"/>
     </figure>
     <main> 
-    <div class="content">
+    <div>
         <!--added sections to distinguish primary empasis for each section & add alt txt...added tags for nav links-->
-     <section class="search-engine-optimization" id="search-engine-optimization">
+     <section id="search-engine-optimization">
         <div>
             <img src="./assets/images/search-engine-optimization.jpg" alt="Search engine optimaization Image" class="float-left" />
             <h2>Search Engine Optimization</h2>
@@ -45,7 +45,7 @@
             </p>
         </div>
      </section>
-     <section class="online-reputation-management" id="online-reputation-management">
+     <section id="online-reputation-management">
         <div>
             <img src="./assets/images/online-reputation-management.jpg" alt="Online Reputation Managment Image" class="float-right" />
             <h2>Online Reputation Management</h2>
@@ -54,7 +54,7 @@
             </p>
         </div>
      </section>
-     <section class="social-media-marketing" id="social-media-marketing">
+     <section id="social-media-marketing">
         <div>
             <img src="./assets/images/social-media-marketing.jpg" alt="Social Media Marketing Image"  class="float-left" />
             <h2>Social Media Marketing</h2>
@@ -65,11 +65,12 @@
         </div>
      </section>
     </div>
+</main>
     <!--Added Aside with class to keep all CSS Attributes in place for class, added Sections and Alt txt-->
-    <aside class="benefits">
+    <aside class="sidebar">
     
     <div>
-        <section class="benefit-lead">
+        <sidesection class="benefit">
         <div >
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="Lead Generation Cog"  />
@@ -77,8 +78,8 @@
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        </section>
-        <section class="benefit-brand">
+        </sidesection>
+        <sidesection class="benefit">
         <div>
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="Light Bulb of Ideas"/>
@@ -86,8 +87,8 @@
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
-      </section>
-      <section class="benefit-cost">
+        </sidesection>
+      <sidesection class="benefit">
         <div>
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="Cost Managment Cog and Coins" />
@@ -95,18 +96,18 @@
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </section>
+      </sidesection>
     </div>
     </aside>
 <!--Added footer and added css class from old code-->
-    <footer class="footer">
+    <footer>
     <div >
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
     </div>
-   </main>
+   
 </body>
 
 </html>
